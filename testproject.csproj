@@ -20,4 +20,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9999" /> <!-- Non-existent version -->
   </ItemGroup>
 
-</Project>
+</Project
