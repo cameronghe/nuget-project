@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework> <!-- You can change the framework if needed -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Invalid package version -->
+    <PackageReference Include="Newtonsoft.Json" Version="99.99.99" /> <!-- Non-existent version -->
+
+    <!-- Non-existent package -->
+    <PackageReference Include="NonExistent.Package" Version="1.0.0" /> <!-- Non-existent package -->
+
+    <!-- Conflicting versions -->
+    <PackageReference Include="Serilog" Version="2.0.0" /> <!-- Very old version of Serilog -->
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.0.0" /> <!-- Requires newer Serilog version -->
+
+    <!-- Invalid package version -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9999" /> <!-- Non-existent version -->
+  </ItemGroup>
+
+</Project>
