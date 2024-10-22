@@ -13,7 +13,7 @@
     <PackageReference Include="NonExistent.Package" Version="1.0.0" /> <!-- Non-existent package -->
 
     <!-- Conflicting versions -->
-    <PackageReference Include="Serilog" Version="2.0.0" /> <!-- Very old version of Serilog -->
+    <PackageReference Include="Serilog" Version="4.1.0" /> <!-- Very old version of Serilog -->
     <PackageReference Include="Serilog.Sinks.Console" Version="3.0.0" /> <!-- Requires newer Serilog version -->
 
     <!-- Invalid package version -->
