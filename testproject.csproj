@@ -14,7 +14,7 @@
 
     <!-- Conflicting versions -->
     <PackageReference Include="Serilog" Version="2.0.0" /> <!-- Very old version of Serilog -->
-    <PackageReference Include="Serilog.Sinks.Console" Version="3.0.0" /> <!-- Requires newer Serilog version -->
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" /> <!-- Requires newer Serilog version -->
 
     <!-- Invalid package version -->
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9999" /> <!-- Non-existent version -->
